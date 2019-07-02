@@ -4,12 +4,13 @@
 #
 Name     : R-R2jags
 Version  : 0.5.7
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/R2jags_0.5-7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/R2jags_0.5-7.tar.gz
 Summary  : Using R to Run 'JAGS'
 Group    : Development/Tools
 License  : GPL-2.0+ LGPL-2.1
+Requires: R-R2WinBUGS
 Requires: R-abind
 Requires: R-coda
 Requires: R-rjags
@@ -30,10 +31,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1562092834
+export SOURCE_DATE_EPOCH=1562093306
 
 %install
-export SOURCE_DATE_EPOCH=1562092834
+export SOURCE_DATE_EPOCH=1562093306
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
