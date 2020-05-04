@@ -1,5 +1,5 @@
 PKG_NAME := R-R2jags
-URL = https://cran.r-project.org/src/contrib/R2jags_0.5-7.tar.gz
+URL = https://cran.r-project.org/src/contrib/R2jags_0.6-1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
