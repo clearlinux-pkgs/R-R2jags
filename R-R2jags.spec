@@ -4,7 +4,7 @@
 #
 Name     : R-R2jags
 Version  : 0.6.1
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/R2jags_0.6-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/R2jags_0.6-1.tar.gz
 Summary  : Using R to Run 'JAGS'
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588629747
+export SOURCE_DATE_EPOCH=1589574639
 
 %install
-export SOURCE_DATE_EPOCH=1588629747
+export SOURCE_DATE_EPOCH=1589574639
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
