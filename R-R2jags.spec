@@ -4,7 +4,7 @@
 #
 Name     : R-R2jags
 Version  : 0.7.1
-Release  : 23
+Release  : 24
 URL      : https://cran.r-project.org/src/contrib/R2jags_0.7-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/R2jags_0.7-1.tar.gz
 Summary  : Using R to Run 'JAGS'
